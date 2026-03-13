@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Edit the browser tab title below -->
+  <title>Projects — Rakshith Anumalasetty</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<!-- data-page="3" sets the active nav dot (3 = Projects) -->
+<body data-page="3">
+
+  <!-- Custom cursor elements -->
+  <div class="cursor"></div>
+  <div class="cursor-ring"></div>
+
+  <!-- Animated background layers -->
+  <div class="bg-canvas"></div>
+
+  <!-- Floating particles layer -->
+  <div class="particles"></div>
+
+  <!-- Subtle scanlines overlay -->
+  <div class="scanlines"></div>
+
+  <!-- ======== NAVIGATION ======== -->
+  <nav class="nav">
+    <!-- Edit the brand/logo text below -->
+    <span class="nav-brand">RA</span>
+
+    <!-- Nav dots: active dot = index 3 -->
+    <div class="nav-dots">
+      <div class="nav-dot" data-index="0" title="Home"></div>
+      <div class="nav-dot" data-index="1" title="Education"></div>
+      <div class="nav-dot" data-index="2" title="Skills"></div>
+      <div class="nav-dot" data-index="3" title="Projects"></div>
+      <div class="nav-dot" data-index="4" title="Certificates"></div>
+      <div class="nav-dot" data-index="5" title="Contact"></div>
+    </div>
+  </nav>
+
+  <!-- ======== PROJECTS PAGE CONTENT ======== -->
+  <main class="page page-transition" style="justify-content: flex-start; padding-top: 0;">
+
+    <!-- Page Header -->
+    <header class="page-header">
+      <!-- Small label — edit this text -->
+      <p class="page-header-label">What I've Built</p>
+      <!-- Page title — edit this text -->
+      <h1 class="page-title">Projects</h1>
+      <div class="page-divider"></div>
+    </header>
+
+    <!-- Projects Grid -->
+    <div class="content-grid content-grid-2" style="max-width: 940px;">
+
+      <!-- ======== PROJECT 1 ======== -->
+      <!-- Edit title, badge (status), description, and tech tags below -->
+      <div class="glass-card project-card">
+        <div class="project-top">
+          <!-- Edit project title -->
+          <div class="project-title">Smart Attendance System</div>
+          <!-- Edit status badge: e.g. Completed / In Progress / Research -->
+          <span class="project-badge">Completed</span>
+        </div>
+        <!-- Edit project description (2-3 sentences) -->
+        <p class="project-desc">
+          A face-recognition-based attendance tracking system using Python and OpenCV.
+          Automatically marks student attendance in real time via webcam, stores
+          records in a MySQL database, and generates downloadable reports.
+        </p>
+        <!-- Edit tech stack tags -->
+        <div class="project-tags">
+          <span class="project-tag">Python</span>
+          <span class="project-tag">OpenCV</span>
+          <span class="project-tag">MySQL</span>
+          <span class="project-tag">Flask</span>
+        </div>
+      </div>
+
+      <!-- ======== PROJECT 2 ======== -->
+      <div class="glass-card project-card">
+        <div class="project-top">
+          <!-- Edit project title -->
+          <div class="project-title">E-Commerce Web App</div>
+          <!-- Edit status badge -->
+          <span class="project-badge">Completed</span>
+        </div>
+        <!-- Edit project description -->
+        <p class="project-desc">
+          A full-stack online shopping platform featuring product listings,
+          shopping cart functionality, user authentication, and Razorpay payment
+          gateway integration. Built with React on the frontend and Node.js + MongoDB at the backend.
+        </p>
+        <!-- Edit tech stack tags -->
+        <div class="project-tags">
+          <span class="project-tag">React.js</span>
+          <span class="project-tag">Node.js</span>
+          <span class="project-tag">MongoDB</span>
+          <span class="project-tag">Razorpay API</span>
+        </div>
+      </div>
+
+      <!-- ======== PROJECT 3 ======== -->
+      <div class="glass-card project-card">
+        <div class="project-top">
+          <!-- Edit project title -->
+          <div class="project-title">Crop Disease Predictor</div>
+          <!-- Edit status badge -->
+          <span class="project-badge">In Progress</span>
+        </div>
+        <!-- Edit project description -->
+        <p class="project-desc">
+          An AI-powered web application that allows farmers to upload leaf images
+          to detect crop diseases using a trained Convolutional Neural Network (CNN)
+          model. Provides diagnosis and treatment recommendations with 91% accuracy.
+        </p>
+        <!-- Edit tech stack tags -->
+        <div class="project-tags">
+          <span class="project-tag">Python</span>
+          <span class="project-tag">TensorFlow</span>
+          <span class="project-tag">CNN</span>
+          <span class="project-tag">Flask</span>
+          <span class="project-tag">React</span>
+        </div>
+      </div>
+
+      <!-- ======== PROJECT 4 ======== -->
+      <div class="glass-card project-card">
+        <div class="project-top">
+          <!-- Edit project title -->
+          <div class="project-title">Personal Finance Tracker</div>
+          <!-- Edit status badge -->
+          <span class="project-badge">Completed</span>
+        </div>
+        <!-- Edit project description -->
+        <p class="project-desc">
+          A responsive web-based budgeting tool that helps users track income,
+          expenses, and savings goals. Features interactive charts, CSV export,
+          and category-wise spending breakdowns with monthly summaries.
+        </p>
+        <!-- Edit tech stack tags -->
+        <div class="project-tags">
+          <span class="project-tag">JavaScript</span>
+          <span class="project-tag">Chart.js</span>
+          <span class="project-tag">HTML/CSS</span>
+          <span class="project-tag">LocalStorage</span>
+        </div>
+      </div>
+
+      <!-- ======== ADD MORE PROJECTS ======== -->
+      <!-- Copy a .glass-card.project-card block above and edit it -->
+
+    </div>
+
+    <!-- Navigation buttons: Certificates OR Contact Details -->
+    <div class="btn-group">
+      <!-- Button to Certificates page -->
+      <a href="certificates.html" class="btn btn-secondary">
+        Certificates
+        <span class="btn-arrow">→</span>
+      </a>
+      <!-- Button to Contact page -->
+      <a href="contact.html" class="btn btn-primary">
+        Contact Details
+        <span class="btn-arrow">→</span>
+      </a>
+    </div>
+
+  </main>
+
+  <!-- Footer label -->
+  <div class="footer-note">Page 04 / 06 — Projects</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
